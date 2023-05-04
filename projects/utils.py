@@ -4,7 +4,6 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 
 def paginationProjects(request, projects, results):
-
     page = request.GET.get('page')
     paginator = Paginator(projects, results)
 
@@ -30,6 +29,7 @@ def paginationProjects(request, projects, results):
     custom_range = range(leftIndex, rightIndex)
 
     return custom_range, projects
+
 
 def searchProject(request):
     search_query = ''

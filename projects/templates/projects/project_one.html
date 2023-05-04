@@ -29,7 +29,7 @@
 
                 </div>
                 <div class="column column--2of3">
-                    <img class="singleProject__preview" src="{{ projectObj.featured_image.url }}"
+                    <img class="singleProject__preview" src="{{ projectObj.imageURL }}"
                          alt="portfolio thumbnail"/>
                     <a href="{% url 'user-profile' projectObj.owner_id %}"
                        class="singleProject__developer">{{ projectObj.owner.name }}</a>
