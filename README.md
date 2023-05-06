@@ -1,2 +1,2 @@
 # portfolio_site
-хз пока
+connection new bd postgresql
