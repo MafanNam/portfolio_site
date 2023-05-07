@@ -7,7 +7,7 @@ from .utils import searchProject, paginationProjects
 
 
 def projects(request):
-    projects, search_query = searchProject(request)
+    projects, search_query = searchProject(request)  # project
     custom_range, projects = paginationProjects(request, projects, 3)
 
     context = {
