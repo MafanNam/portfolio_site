@@ -134,7 +134,7 @@ WSGI_APPLICATION = 'portfolio_site.wsgi.application'
 #         'ENGINE': 'django.db.backends.postgresql',
 #         'NAME': 'portfolio_site',
 #         'USER': 'Mafan',
-#         'PASSWORD': 'Maksim20040',
+#         'PASSWORD': '',
 #         'HOST': 'database-1.cmfgm6lomgfw.eu-north-1.rds.amazonaws.com',
 #         'PORT': '5432',
 #     }
@@ -184,8 +184,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = 'kepkpkep@gmail.com'
-EMAIL_HOST_PASSWORD = 'tiqpmvepxjmmbbkh'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
